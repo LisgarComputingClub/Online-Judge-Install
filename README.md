@@ -1,5 +1,5 @@
 # Online-Judge-Install
-An installation program for the Lisgar online judge.
+An installation script for the Lisgar online judge.
 
 ##How it works
 
