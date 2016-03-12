@@ -6,7 +6,7 @@ sudo apt-get install git nodejs -y
 cd ../
 
 # Delete unnecessary files
-echo "Deleting unnecessary install files"
+echo "Deleting unnecessary install files."
 rm Online-Judge-Install -rf
 
 # Download the online judge into the current directory
@@ -17,7 +17,7 @@ git clone https://github.com/LisgarComputingClub/Online-Judge.git
 cd Online-Judge
 
 # Install judge dependencies
-echo "Installing judge dependencies"
+echo "Installing judge dependencies."
 npm install express ejs mongodb body-parser
 
 # Output a friendly message
