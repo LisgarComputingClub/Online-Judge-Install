@@ -13,10 +13,6 @@ wget https://gist.githubusercontent.com/Porso7/1dea6140143961a3c762/raw/133d8b39
 # Go into upper directory
 cd ../
 
-# Delete unnecessary files
-echo "Deleting unnecessary install files."
-rm Online-Judge-Install -rf
-
 # Download the online judge into the current directory
 echo "Downloading latest version of online judge."
 git clone https://github.com/LisgarComputingClub/Online-Judge.git
@@ -27,6 +23,10 @@ cd Online-Judge
 # Install judge dependencies
 echo "Installing judge dependencies."
 bash Online-Judge-Install/dependencies.sh
+
+# Delete unnecessary files
+echo "Deleting unnecessary install files."
+rm Online-Judge-Install -rf
 
 # Output a friendly message
 echo "Done installing online judge."
