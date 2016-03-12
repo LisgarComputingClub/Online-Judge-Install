@@ -8,7 +8,11 @@ echo "Attempting to install Git and Node.js..."
 sudo apt-get install git nodejs -y
 
 # Get temporary install files
-wget https://gist.githubusercontent.com/Porso7/1dea6140143961a3c762/raw/133d8b39976784f110c3bb99124b0abcbe38a924/dependencies.sh
+git clone https://gist.github.com/1dea6140143961a3c762.git
+cd 1dea6140143961a3c762
+mv dependencies.sh ../
+cd ../
+rm 1dea6140143961a3c762 -rf
 
 # Go into upper directory
 cd ../
