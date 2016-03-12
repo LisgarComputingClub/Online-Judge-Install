@@ -1,4 +1,8 @@
 #!/bin/bash
+# This script completely automates the install of the Lisgar Collegiate
+# Institute online grader. It installs git and Node.js via apt-get and
+# downloads the latest version of the online judge from Github.
+
 # Install Git, Node.js and NPM
 echo "Attempting to install Git and Node.js"
 sudo apt-get install git nodejs -y
