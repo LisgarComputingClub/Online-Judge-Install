@@ -5,7 +5,7 @@ An installation script for the Lisgar online judge.
 Copy and paste the following command into a terminal:
 
 ```shell
-sudo apt-get install git && git clone https://github.com/LisgarComputingClub/Online-Judge-Install.git; cd Online-Judge-Install; bash install.sh
+sudo apt-get install git -y && git clone https://github.com/LisgarComputingClub/Online-Judge-Install.git; cd Online-Judge-Install; bash install.sh
 ```
 
 ## How it works
